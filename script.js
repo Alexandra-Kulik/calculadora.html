@@ -1,13 +1,15 @@
 function appendValue(value) {
-    document.getElementById('screen').value += value;
+    document.getElementById("screen").value += value;
 }
+
 function clearScreen() {
-    document.getElementById('screen').value = '';
+    document.getElementById("screen").value = "";
 }
+
 function calculate() {
     try {
-        document.getElementById('screen').value = eval(document.getElementById('screen').value);
-    } catch (e) {
-        alert('Erro na expressão!');
+        document.getElementById("screen").value = eval(document.getElementById("screen").value);
+    } catch (error) {
+        document.getElementById("screen").value = "Erro";
     }
 }
