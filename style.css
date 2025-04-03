@@ -1,4 +1,4 @@
-body {
+.body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ body {
     gap: 5px;
 }
 
-button {
+.button {
     padding: 15px;
     font-size: 1.2em;
     background: #8A2BE2;
@@ -45,7 +45,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     background: #9932CC;
 }
 
@@ -57,6 +57,6 @@ button:hover {
     background: #DA70D6;
 }
 
-button:nth-child(16) {
+.button:nth-child(16) {
     grid-column: span 2;
 }
