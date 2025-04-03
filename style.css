@@ -10,20 +10,20 @@
 
 .calculator {
     background: #6A0DAD;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 30px; /* Aumentando o espaço interno */
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 250px;
+    width: 320px; /* Aumentando a largura */
 }
 
 .screen {
     width: 100%;
-    height: 50px;
-    font-size: 1.5em;
+    height: 60px; /* Aumentando a altura */
+    font-size: 2em; /* Aumentando o tamanho da fonte */
     text-align: right;
-    margin-bottom: 10px;
-    padding: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
     background: #D8BFD8;
     border: none;
     border-radius: 5px;
@@ -32,16 +32,16 @@
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 8px;
 }
 
-.button {
-    padding: 15px;
-    font-size: 1.2em;
+button {
+    padding: 20px; /* Aumentando os botões */
+    font-size: 1.5em; /* Aumentando a fonte */
     background: #8A2BE2;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
